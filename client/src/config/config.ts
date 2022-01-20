@@ -1,12 +1,12 @@
 const config = {
   firebase: {
-    apiKey: "AIzaSyBVd31GqYPXzICtOcoDlthK-B2dqi-u9E0",
-    authDomain: "blog-2f358.firebaseapp.com",
-    projectId: "blog-2f358",
-    storageBucket: "blog-2f358.appspot.com",
-    messagingSenderId: "134380048460",
-    appId: "1:134380048460:web:bbac441eab856d4d8ee4e9",
-    measurementId: "G-YTCG6QMKY9",
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP_APP_ID,
+    measurementId: process.env.REACT_APP_MEASUREMENT_ID,
   },
   server: {
     url: "http://localhost:1337",
